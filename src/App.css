@@ -2,7 +2,11 @@
     margin:0px auto;
     padding:0px auto;
 }
-
+.commentform{
+    margin:0px auto;
+    padding: 50px 0px 50px 0px;
+    
+}
 .row-content {
     margin:0px auto;
     padding: 50px 0px 50px 0px;
