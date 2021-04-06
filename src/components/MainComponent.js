@@ -5,7 +5,6 @@ import Contact from './ContactComponent'
 import Menu from './MenuComponent';
 import About from './AboutComponent'
 import DishDetail from './DishdetailComponent';
-
 import Footer  from './FooterComponent'
 import { actions } from 'react-redux-form';
 import {Switch, Route, Redirect, withRouter} from 'react-router-dom';
