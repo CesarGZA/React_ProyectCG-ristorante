@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import {Button, Modal, ModalBody, ModalHeader, Label, Row, Col} from "reactstrap";
 import { Control, LocalForm, Errors } from 'react-redux-form';
 import { Loading } from './LoadingComponent';
+import { baseUrl } from '../shared/baseUrl';
 
 /* ----------------------------------· 3 assigment ------------------------------------------- */
 
@@ -102,7 +103,7 @@ class CommentForm extends Component{
             return( 
                 <div className="col-12 col-md-5 m-1">
                     <Card>
-                        <CardImg  width="100%" src={dish.image} alt={dish.name} />
+                        <CardImg top src={baseUrl + dish.image} alt={dish.name} />
                         <CardBody>
                             <CardTitle tag="h5">{dish.name}</CardTitle>
                             <CardText>{dish.description}</CardText>
