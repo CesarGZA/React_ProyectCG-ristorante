@@ -100,7 +100,6 @@ class CommentForm extends Component{
 /* --------------------------------------------------------------------------- */
 
     function RenderDishDetails({dish}){
-        console.log(dish.name)
             return( 
                 <div className="col-12 col-md-5 m-1">
                     <FadeTransform in
